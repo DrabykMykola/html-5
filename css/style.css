@@ -1,8 +1,14 @@
+
 html {
 	background-image: url(../images/bg.png);
 	background-size: cover;
-	font-family: Tahoma;
 }
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 
 header {
 	background-color: #085393;
@@ -12,7 +18,9 @@ header {
 
 a {
 	text-decoration: none;
+	color: #fff;
 }
+
 
 
 
@@ -55,13 +63,13 @@ span {
 }
 
 
+
+
 .container-form {
 	display: flex;
   	justify-content: center;
   	align-items: center;
-  	
   	height: 1024px;
-
 }
 
 
@@ -73,15 +81,107 @@ span {
   	justify-content: center;
   	align-items: center;
   	flex-direction: column;
-  	align-content: space-around;
+  	color: #fff;
+  	
+}
+
+.form h2 {
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .form hr{
 	display: flex;
 	width: 560px;
+	margin-bottom: 32px;
 }
 
-input {
-	display: flex;
-	align-content: space-around;
+.logInWithFacebook {
+	background: #4267b2;
+	border-radius: 5px;
+	color: white;
+	height: 35px;
+	text-align: center;
+	width: 275px;
+	line-height: 0;
 }
+
+.logInWithFacebook a {
+	
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.logInWithFacebook p {
+	display: inline-flex;
+	padding: 0 20px 0 50px;
+	
+}
+
+.logInWithFacebook i {
+	display: inline-flex;
+	font-size: 20px;
+}
+
+
+.ou hr {
+	width: 120px;
+	float: left;
+	background-color: #999999;
+	color: #999999;
+	border-bottom: 1px solid black;
+	margin-top: 22px;
+
+}
+.ou p {
+	float: left;
+	padding: 0 4px;
+	color: #999999;
+}
+
+
+
+input {
+	margin-bottom: 16px;
+	padding-left: 17px;
+	background-color: black;
+	border: 0;
+	width: 258px;
+	height: 35px;
+	color: #fff;
+}
+input:focus {
+	background-color: #1b5288;
+	color: #fff;
+	box-shadow: 0 0 15px #609ac6;
+	outline:none;
+}
+
+.checkbox {
+	height: 15px;
+	width: 15px;
+	margin-bottom: 25px;
+}
+
+.button {
+	width: 150px;
+	height: 35px;
+	background-color: #307cc5;
+	border-radius: 3px;
+	color: #fff;
+	padding: 0; 
+	margin-bottom: 2px
+}
+
+.form h6 {
+	line-height: 20px;
+	text-align: center;
+	margin: 10px 0 20px 0;
+
+}
+
+ 
+
