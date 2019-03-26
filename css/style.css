@@ -1,7 +1,6 @@
 
 html {
-	background-image: url(../images/bg.png);
-	background-size: cover;
+	background: url(../images/bg.png) no-repeat center top / cover;
 }
 
 
@@ -66,22 +65,29 @@ span {
 
 
 .container-form {
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	height: 1024px;
+	position: relative;
+  	height: 1026px;
 }
 
 
 .form {
+	position: absolute;
+	
 	width: 560px;
 	height: 610px;
+
 	background-color: rgba(0, 0, 0, 0.5);
   	display: flex;
-  	justify-content: center;
   	align-items: center;
   	flex-direction: column;
   	color: #fff;
+
+  	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
   	
 }
 
@@ -130,8 +136,6 @@ span {
 .ou hr {
 	width: 120px;
 	float: left;
-	background-color: #999999;
-	color: #999999;
 	border-bottom: 1px solid black;
 	margin-top: 22px;
 
@@ -182,6 +186,3 @@ input:focus {
 	margin: 10px 0 20px 0;
 
 }
-
- 
-
